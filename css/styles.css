@@ -9,10 +9,9 @@
 }
 
 .jumbotron{
-margin-bottom: 1%;
-height: 50%;
+  margin-bottom: 1%;
+  height: 50%;
 }
-
 
 .jumbotron h1{
   font-weight: 700;
@@ -30,19 +29,20 @@ height: 50%;
 }
 
 #space {
-border: 3px solid gray;
-border-radius: 5%;
-margin: 1%;
-background-color: #ebd7f2;
+  border: 3px solid gray;
+  border-radius: 5%;
+  margin: 1%;
+  background-color: #ebd7f2;
 }
 
 img {
-border-radius: 4.5%;
-padding-top: 0.5%;
-padding-bottom: 0.5%;
-margin: 0 auto;
-width: 100%;
-height: 97%;
+  float: left;
+  border-radius: 4.5%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin: 0 auto;
+  width: 100%;
+  height: 97%;
 }
 
 #about {
@@ -63,6 +63,10 @@ height: 97%;
   text-align: justify;
 }
 
+#epicodus{
+  text-transform: uppercase;
+}
+
 #about h3 {
   text-align: center;
 }
@@ -72,11 +76,11 @@ height: 97%;
 }
 
 .panel {
-background-color: #f7baad;
-font-size: 20px;
-margin: 2% 2%;
-border: 2px solid gray;
-box-shadow: 5px 2px 5px #6d6868;
+  background-color: #f7baad;
+  font-size: 20px;
+  margin: 2% 2%;
+  border: 2px solid gray;
+  box-shadow: 5px 2px 5px #6d6868;
 }
 
 .panel-body {
