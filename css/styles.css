@@ -1,13 +1,44 @@
 
+.container-fluid{
+  font-family: 'Lato', sans-serif;
+}
 .no-padding{
   padding-left: 0;
   padding-right: 0;
 }
 
-.container-fluid .jumbotron {
-margin-top: 5%;
+.jumbotron{
+margin-bottom: 1%;
+}
+
+
+.jumbotron h1{
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.7px;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.jumbotron h4{
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+#space {
+border: 3px solid gray;
+border-radius: 2%;
+margin: 2%;
+}
+
+#about{
+  padding: 2%;
 }
 
 img{
-border-radius: 15%;
+border-radius: 2.5%;
+margin-bottom: 2%;
+padding-top: 1%;
 }
