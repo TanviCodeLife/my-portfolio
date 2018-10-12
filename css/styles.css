@@ -34,7 +34,11 @@ margin: 2%;
 }
 
 #about{
-  padding: 2%;
+  padding-top: 8%;
+  padding-left: 3%;
+}
+#about p{
+  font-size: 20px;
 }
 
 img{
