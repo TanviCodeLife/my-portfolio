@@ -1,6 +1,7 @@
 
 .container-fluid{
   font-family: 'Lato', sans-serif;
+  background-color: black;
 }
 .no-padding{
   padding-left: 0;
@@ -9,6 +10,7 @@
 
 .jumbotron{
 margin-bottom: 1%;
+height: 50%;
 }
 
 
@@ -63,11 +65,23 @@ height: 95%;
   text-align: justify;
 }
 
-.add-color{
-  background-color: #c6d5f4;
-  font-size: 15px;
+#row-style{
+  /* border: 1px solid gray; */
+  /* border-radius: 5%; */
+  margin: 1%;
 }
 
-.add-hdcolor{
+.panel{
 background-color: #f4ddc3;
+font-size: 20px;
+margin: 2% 2%;
+border: 3px solid gray;
+border-radius: 8%;
+}
+
+.panel-body{
+  background-color: #c6d5f4;
+  font-size: 15px;
+  border-radius: 9%;
+
 }
