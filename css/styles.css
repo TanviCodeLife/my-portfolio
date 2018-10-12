@@ -2,5 +2,12 @@
 .no-padding{
   padding-left: 0;
   padding-right: 0;
+}
 
+.container-fluid .jumbotron {
+margin-top: 5%;
+}
+
+img{
+border-radius: 15%;
 }
